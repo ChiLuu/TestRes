@@ -1,0 +1,198 @@
+body{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+   url('./media/vacation.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: left;
+   background-attachment: fixed;
+   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+   padding-top: 110px;
+}
+.form-inline {
+   display: inline-block;
+}
+.navbar-header.col {
+ padding: 0 !important;
+}	
+.navbar {		
+ background: #fff;
+ padding-left: 16px;
+ padding-right: 16px;
+ border-bottom: 1px solid #d6d6d6;
+ box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+.nav-link img {
+ border-radius: 50%;
+ width: 36px;
+ height: 36px;
+ margin: -8px 0;
+ float: left;
+ margin-right: 10px;
+}
+
+.navbar .navbar-brand {
+ color: #555;
+ padding-left: 0;
+ font-size: 20px;
+ padding-right: 50px;
+}
+.navbar .navbar-brand b {
+ font-weight: bold;
+ color: #eb5844;
+}
+.navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
+ color: #f08373 !important;
+}
+.navbar ul.nav li.active a, .navbar ul.nav li.active a:hover, .navbar ul.nav li.active a:focus {
+ color: #eb5844 !important;
+ background: transparent !important;
+}
+.search-box {
+   position: relative;
+}	
+.search-box input.form-control {		
+   padding-right: 35px;
+   border-radius: 0;
+ padding-left: 0;
+ border-width: 0 0 1px 0;
+ box-shadow: none;
+}
+.search-box input.form-control:focus {		
+ border-color: #f08373;		
+}
+.search-box .input-group-addon {
+   min-width: 35px;
+   border: none;
+   background: transparent;
+   position: absolute;
+   right: 0;
+   z-index: 9;
+   padding: 7px 0 7px 7px;
+ height: 100%;
+}
+.search-box i {
+   color: #a0a5b1;
+ font-size: 19px;
+}
+.navbar .nav-item i {
+ font-size: 18px;
+}
+.navbar .dropdown-item i {
+ font-size: 16px;
+ min-width: 22px;
+}
+.navbar .nav-item.open > a {
+ background: none !important;
+}
+.navbar .dropdown-menu {
+ border-radius: 1px;
+ border-color: #e5e5e5;
+ box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu li a {
+ color: #777;
+ padding: 8px 20px;
+ line-height: normal;
+}
+.navbar .navbar-form {
+ margin-right: 0;
+ margin-left: 0;
+ border: 0;
+}
+
+
+.register{
+   margin-top: 3%;
+   padding: 3%;
+}
+.register-left{
+   text-align: center;
+   color: #fff;
+   margin-top: 4%;
+}
+.register-left input{
+   border: none;
+   border-radius: 1.5rem;
+   padding: 2%;
+   width: 60%;
+   background: #f8f9fa;
+   font-weight: bold;
+   color: #383d41;
+   margin-top: 30%;
+   margin-bottom: 3%;
+   cursor: pointer;
+}
+.register-right{
+   background: #f8f9fa;
+   border-top-left-radius: 10% 50%;
+   border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+   margin-top: 15%;
+   margin-bottom: 5%;
+   width: 25%;
+   -webkit-animation: mover 2s infinite  alternate;
+   animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+   0% { transform: translateY(0); }
+   100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+   0% { transform: translateY(0); }
+   100% { transform: translateY(-20px); }
+}
+.register-left p{
+   font-weight: lighter;
+   padding: 12%;
+   margin-top: -9%;
+}
+.register .register-form{
+   padding: 10%;
+   margin-top: 10%;
+}
+.btnRegister{
+   float: right;
+   margin-top: 10%;
+   border: none;
+   border-radius: 1.5rem;
+   padding: 2%;
+   background: #0062cc;
+   color: #fff;
+   font-weight: 600;
+   width: 50%;
+   cursor: pointer;
+}
+.register .nav-tabs{
+   margin-top: 3%;
+   border: none;
+   background: #0062cc;
+   border-radius: 1.5rem;
+   width: 28%;
+   float: right;
+}
+.register .nav-tabs .nav-link{
+   padding: 2%;
+   height: 34px;
+   font-weight: 600;
+   color: #fff;
+   border-top-right-radius: 1.5rem;
+   border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+   border: none;
+}
+.register .nav-tabs .nav-link.active{
+   width: 100px;
+   color: #0062cc;
+   border: 2px solid #0062cc;
+   border-top-left-radius: 1.5rem;
+   border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+   text-align: center;
+   margin-top: 8%;
+   margin-bottom: -15%;
+   color: #495057;
+}
+#success_message{ display: none;}
